@@ -1,10 +1,6 @@
-#ifndef COP4530_BST_HPP
-#define COP4530_BST_HPP
 #include <iostream>
 #include <string>
 #include <sstream>
-
-using namespace cop4530;
 
 /*
     public functions
