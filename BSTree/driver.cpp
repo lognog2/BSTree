@@ -3,9 +3,9 @@
 #include "bst.h"
 
 using namespace std;
-using namespace cop4530;
 
 int main() {
+	
     string input;
 
     // get a list of integer values
