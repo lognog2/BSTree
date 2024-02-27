@@ -1,11 +1,7 @@
-#ifndef COP4530_BST_H
-#define COP4530_BST_H
 #include <iostream>
 #include <string>
 #include <sstream>
 
-namespace cop4530
-{
 template <typename T>
 class BST
 {
@@ -62,5 +58,3 @@ class BST
 
 }; //end class
 #include "bst.hpp"
-} //end namespace
-#endif
