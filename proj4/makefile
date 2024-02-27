@@ -1,11 +1,11 @@
-output: proj4.x
+output: bst.x
 
-proj4.x: proj4_driver.o
-	g++ -std=c++11 proj4_driver.o -o proj4.x
+proj4.x: driver.o
+	g++ -std=c++11 driver.o -o bst.x
 
-proj4_driver.o: proj4_driver.cpp bst.hpp
-	g++ -c -std=c++11 proj4_driver.cpp
+driver.o: driver.cpp bst.hpp
+	g++ -c -std=c++11 driver.cpp
 
 .PHONY: clean
 clean:
-	rm -f *.o *.gch proj4.x
+	rm -f *.o *.gch bst.x
